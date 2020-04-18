@@ -4,19 +4,19 @@ Proxies messages between a Minecraft Bedrock (not Java Edition) server and a Tel
 
 Currently only compatible with 1.14.60, protocol version 390.
 
-###Made possible by these libraries:
+### Made possible by these libraries:
 
 - https://github.com/Sandertv/gophertunnel
 - https://github.com/NukkitX/Protocol
 
-###Requirements
+### Requirements
 
 - Linux / MacOS (might be ok on Windows)
 - JDK 13
 - Xbox live account
 - Telegram bot
 
-###Setup
+### Setup
 
 Create a `config.properties` file that has the following info:
 ```
