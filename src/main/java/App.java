@@ -28,16 +28,5 @@ public class App {
           var message = textPacket.getMessage();
           telegramConnection.sendMessage(username + ": " + message);
         });
-
-    // Wait indefinitely.
-    //    while (true) {
-    //      try {
-    //        synchronized (serverConnection) {
-    //          serverConnection.wait();
-    //        }
-    //      } catch (InterruptedException e) {
-    //        e.printStackTrace();
-    //      }
-    //    }
   }
 }
