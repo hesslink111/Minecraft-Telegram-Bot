@@ -12,7 +12,7 @@ Currently only compatible with 1.14.60, protocol version 390.
 ### Requirements
 
 - Linux / MacOS (might be ok on Windows)
-- JDK 13
+- JDK 11
 - Xbox live account
 - Telegram bot
 
