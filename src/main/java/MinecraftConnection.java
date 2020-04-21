@@ -152,5 +152,6 @@ public class MinecraftConnection {
 
   private void onDisconnect(DisconnectReason reason) {
     System.out.println("Server disconnected: " + reason);
+    System.exit(1);
   }
 }
